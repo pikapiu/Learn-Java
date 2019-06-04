@@ -14,8 +14,7 @@ public class AnimalTest {
         Animal animal2 = new Animal("Person", 2);
         List<Animal> animals = Arrays.asList(animal0, animal1, animal2);
 
-        List<Animal> list = AnimalTest.getByAgeByfunction(0, animals, (num, paramAnimals) ->
-                animals.stream().filter(i -> i.getNum() > num).collect(Collectors.toList()));
+        List<Animal> list = animals.stream().filter((animal) -> animal.getNum() > 0).collect(Collectors.toList());
 
         //打印结果 1 1 2
         list.forEach(i -> System.out.println(i.getNum()));

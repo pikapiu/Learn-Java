@@ -24,3 +24,6 @@ hs_err_pid*
 
 .idea
 /.gitignore
+.gradle/5.4.1/vcsMetadata-1/
+src/test/
+/.gradle/
