@@ -25,5 +25,6 @@ public class SwingTest {
         jframe.pack();
         jframe.setVisible(true);
         jframe.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        System.out.println("");
     }
 }

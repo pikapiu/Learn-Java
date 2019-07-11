@@ -24,16 +24,16 @@ public class StrategyTest {
 
         StrategyTest testHello = new StrategyTest(new SayHello());
         StrategyTest testWorld = new StrategyTest(new SayWorld());
+        StrategyTest hello = new StrategyTest(testHello::say);
 
+        System.out.println(hello.say());
         System.out.println(testHello.say());
         System.out.println("===");
         System.out.println(testWorld.say());
 
         System.out.println("instead of");
 
-        StrategyTest hello = new StrategyTest(testHello::say);
 
-        System.out.println(hello.say());
 
         StrategyTest lambda = new StrategyTest(() -> "hello lambda");
 
