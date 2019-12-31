@@ -16,3 +16,5 @@ public class ClassLoaderTest {
 
 class AAA{
 }
+
+strictfp class fsd{ }
