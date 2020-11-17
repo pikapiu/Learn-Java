@@ -1,6 +1,4 @@
-package other;
-
-import com.oracle.webservices.internal.api.databinding.DatabindingMode;
+package design.patterns.builder;
 
 /**
  * @Author: zs

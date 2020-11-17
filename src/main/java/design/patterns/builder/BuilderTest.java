@@ -1,4 +1,4 @@
-package other;
+package design.patterns.builder;
 
 /**
  * @Author: zs

@@ -1,4 +1,4 @@
-package other;
+package design.patterns.builder;
 
 /**
  * @Author: zs
@@ -15,7 +15,7 @@ public class Teacher {
         private  String math;
 
         public Builder name(String val){ name = val;return this; }
-        public Builder english(String val){ english = val;return this; }
+        public Builder english(String val){ english = val;return this     ; }
         public Builder math(String val){ math = val;return this; }
 
         public Teacher build(){

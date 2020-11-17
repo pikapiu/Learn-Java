@@ -1,6 +1,6 @@
-package design.patterns.impl;
+package design.patterns.strategy.impl;
 
-import design.patterns.StrategyInterface;
+import design.patterns.strategy.StrategyInterface;
 
 /**
  * @Author: zs

@@ -1,4 +1,4 @@
-package design.patterns.impl;
+package design.patterns.strategy.impl;
 
 /**
  * @Author: zs
