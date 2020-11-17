@@ -1,4 +1,4 @@
-package algorithm;
+package algorithm.others;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
